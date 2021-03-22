@@ -6,6 +6,11 @@ export PATH="$HOME/.local/bin:$PATH"
 export VISUAL="nvim"
 export EDITOR="nvim"
 
+# fcitx
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+
 # rust
 export PATH="$HOME/.cargo/bin:$PATH"
 export CARGO_HOME="$HOME/.cargo"

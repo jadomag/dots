@@ -238,6 +238,8 @@ exec_always feh --randomize --bg-fill ~/.wallpaper/*
 
 exec redshift
 
+exec --no-startup-id fcitx -d
+
 # custom applications / autstart
 # ===========================================
 
